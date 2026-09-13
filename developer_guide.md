@@ -1,11 +1,11 @@
-## How to Install VS Code IDE for Erik Toller's `andfn` Package on Ubuntu
+## How to Install VS Code IDE for the `andfn` Package on Ubuntu
 
 ### Install Python on the system
     `sudo apt update`
     `sudo apt install python3 python3-pip python3-venv -y`
 
 ### Install and Configure Git on the system
-Follow the instructions for installing and configuring `git` that are stored in the Mlaem repository. These instructions are located at [https://github.com/ODLS1/Mlaem/tree/main/readme/Git_Config.md](https://github.com/ODLS1/Mlaem/tree/main/readme/Git_Config.md).
+Follow the instructions for installing and configuring `git` that are stored in the Mlaem repository on GitHub. These instructions are located at [https://github.com/ODLS1/Mlaem/tree/main/readme/Git_Config.md](https://github.com/ODLS1/Mlaem/tree/main/readme/Git_Config.md).
 
 ### Fork the `andfn` repository on GitHub
 * Fork the `andfn` repository on GitHub using the GitHub Website GUI.
@@ -45,11 +45,11 @@ Installation Steps
 
 ### Clone the `andfn` Repository in VS Code
 * In VS Code, choose "Clone Git Repository..."
-* In the pulldown menu that requests the repository, either type in the address of the repository (https://github.com/ODLS1/andfn), or, if you are logged in to GitHub, wait for VS Code to populate your repositories and choose `andfn` from the pulldown menu.
-* For the destination of the repository, create a `Source` directory in your home directory (e.g. `/home/odls/Source`)
+* In the pulldown menu that requests the repository, either type in the address of the repository (for example, for a username ODLS1 it would be `https://github.com/ODLS1/andfn`), or, if you are logged in to GitHub, wait for VS Code to populate your repositories and choose `andfn` from the pulldown menu.
+* For the destination of the repository, create a `Source` directory in your home directory (for example, `/home/odls/Source`)
 
 ### Connect your Fork of `andfn` to Toller's "upstream" Version
-    cd <local_name_for_repo> [likely `/home/odls/Source/andfn`]
+    cd <local_name_for_repo> [for example, `/home/odls/Source/andfn`]
     git remote add upstream git@github.com:eriktoller/andfn
 
 To update your fork from upstream (which is @eriktoller's `andfn` repository), type:
@@ -68,7 +68,7 @@ To update your fork from upstream (which is @eriktoller's `andfn` repository), t
 
 ### Run "template.py" Example
 * Open a terminal from the `Terminal` menu in VS Code 
-* Navigate to `/home/odls/Source/andfn`
+* Navigate to, for example, `/home/odls/Source/andfn`
 * Type `python3 ./examples/template.py` to run the `template.py` example. It should generate an image of four fractures with contour lines.
 
 ### Making and committing changes
@@ -87,7 +87,7 @@ To update your fork from upstream (which is @eriktoller's `andfn` repository), t
 * From the `Help` menu, select `Ask @vscode`
 * Ask questions in plain English, setting appropriate context and being specific (it will help guide you with questions and suggestions). For example, ask: "In the andfn Python project currently loaded in VS Code, please suggest a sequence of steps to parallelize the code for better performance".
 
-### Watch Erik Toller Video
+### Watch Video (if available)
 * Download files from Dropbox
 * Unzipped `zip` file
 * Installed video viewer:
